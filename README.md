@@ -1,5 +1,5 @@
 # JAVASCRIPT-SANDBOX-2025
 
-## 01-variables-data-types
-
-## 02-comments-and-shortcuts
+- ### 01-variables-data-types
+  - #### 01-console
+  - #### 02-comments-shortcuts
