@@ -2,4 +2,4 @@
 
 ## 01-variables-data-types
 
-## 02-comments-shortcuts
+## 02-comments-and-shortcuts
