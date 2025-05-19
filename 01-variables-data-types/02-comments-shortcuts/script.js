@@ -22,7 +22,7 @@ console.error('Alert');
 
 console.warn('Warning');
 
-console.table({name: 'Nishant', email: 'nishant.raj334@gmail.com'});
+console.table({ name: 'Nishant', email: 'nishant.raj334@gmail.com' });
 
 console.group('simple');
 console.log(x);
