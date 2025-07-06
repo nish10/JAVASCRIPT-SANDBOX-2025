@@ -7,9 +7,11 @@ function addDollarSign(value) {
 
 // console.log(addDollarSign(100));
 
-console.log(addPlusSign(200));
+// console.log(addPlusSign(200));
 
 // Function Expression
 const addPlusSign = function (value) {
   return '+' + value;
 };
+
+console.log(addPlusSign(200));
