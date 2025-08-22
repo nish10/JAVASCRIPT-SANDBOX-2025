@@ -31,6 +31,7 @@ const dummyPromise = new Promise((resolve, reject) => {
   resolve('Hello World');
 });
 
+// Promise all
 Promise.all([moviesPromise, actorsPromise, directorsPromise, dummyPromise])
   .then((data) => {
     console.log(data);
