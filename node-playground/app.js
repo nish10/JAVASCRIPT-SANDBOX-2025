@@ -22,6 +22,7 @@
 
 const axios = require('axios');
 
+// local nodemon and production node
 async function getPost() {
   const res = await axios.get('https://jsonplaceholder.typicode.com/posts/2');
   console.log(res.data);
