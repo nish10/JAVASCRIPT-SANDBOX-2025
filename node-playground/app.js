@@ -8,14 +8,23 @@
 
 // getUser();
 
-const { capitalizeWords, makeMoney } = require('./utils');
+// const { capitalizeWords, makeMoney } = require('./utils');
 
-console.log(capitalizeWords('hello world from node.js'));
+// console.log(capitalizeWords('hello world from node.js'));
 
-console.log(makeMoney(1000));
+// console.log(makeMoney(1000));
 
-const Person = require('./Person');
+// const Person = require('./Person');
 
-const person1 = new Person('Nishant', 28);
+// const person1 = new Person('Nishant', 28);
 
-person1.greet();
+// person1.greet();
+
+const axios = require('axios');
+
+async function getPost() {
+  const res = await axios.get('https://jsonplaceholder.typicode.com/posts/2');
+  console.log(res.data);
+}
+
+getPost();
