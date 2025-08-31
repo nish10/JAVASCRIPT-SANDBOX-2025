@@ -16,6 +16,10 @@ function Rectangle(name, width, height) {
 // inherits shape prototypes
 Rectangle.prototype = Object.create(Shape.prototype);
 
+Rectangle.prototype.logName = function () {
+  console.log(`Rectangle Shape Name: ${this.name}`);
+};
+
 function Circle(name, radius) {
   Shape.call(this, name);
 
